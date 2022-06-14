@@ -1,0 +1,10 @@
+---
+site_name: Git Backup
+
+repo_url: https://github.com/ohheyrj/git-backup
+
+nav:
+  - Introduction: 'index.md'
+
+theme:
+  name: material

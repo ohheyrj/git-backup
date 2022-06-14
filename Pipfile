@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argparse = "*"
+configparser = "*"
+python-gitlab = "*"
+requests = "*"
+boto3 = "*"
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+bandit = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+
+[requires]
+python_version = "3.8"
