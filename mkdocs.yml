@@ -2,9 +2,25 @@
 site_name: Git Backup
 
 repo_url: https://github.com/ohheyrj/git-backup
+repo_name: ohheyrj/git-backup
 
 nav:
   - Introduction: 'index.md'
   - Configuration: 'configuration.md'
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: pink
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
